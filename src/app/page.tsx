@@ -121,7 +121,7 @@ export default function Home() {
       <section className="container pt-[18vh] pb-24 md:pb-32">
         <Reveal>
           <h1 className="text-hero font-display text-primary max-w-wide">
-            I turn complex problems into simple tools.
+            Turning complex problems into simple tools.
           </h1>
         </Reveal>
         <Reveal delay={200}>
