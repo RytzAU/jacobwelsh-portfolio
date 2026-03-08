@@ -42,30 +42,8 @@ function ProjectCard({
 }) {
   return (
     <div className="group">
-      {project.video ? (
-        <DemoVideo
-          webm={project.video.webm}
-          mp4={project.video.mp4}
-          poster={project.video.poster}
-          className="aspect-[16/9]"
-          label={project.video.label}
-        />
-      ) : (
-        <Link href={`/work/${project.slug}`} className="block">
-          <div className="aspect-[16/9] bg-surface overflow-hidden relative transition-colors duration-700 group-hover:bg-elevated">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span
-                className="font-display text-primary/[0.04] select-none leading-none group-hover:text-primary/[0.06] transition-colors duration-700"
-                style={{ fontSize: 'clamp(8rem, 20vw, 18rem)' }}
-              >
-                {project.name}
-              </span>
-            </div>
-          </div>
-        </Link>
-      )}
       <Link href={`/work/${project.slug}`} className="block">
-        <div className="mt-6 flex items-baseline justify-between gap-4">
+        <div className="flex items-baseline justify-between gap-4">
           <div>
             <h2 className="text-display font-display text-primary group-hover:text-secondary transition-colors duration-500">
               {project.name}
@@ -87,6 +65,30 @@ function ProjectCard({
           {project.essence}
         </p>
       </Link>
+      <div className="mt-6">
+        {project.video ? (
+          <DemoVideo
+            webm={project.video.webm}
+            mp4={project.video.mp4}
+            poster={project.video.poster}
+            className="aspect-[16/9]"
+            label={project.video.label}
+          />
+        ) : (
+          <Link href={`/work/${project.slug}`} className="block">
+            <div className="aspect-[16/9] bg-surface overflow-hidden relative transition-colors duration-700 group-hover:bg-elevated">
+              <div className="absolute inset-0 flex items-center justify-center">
+                <span
+                  className="font-display text-primary/[0.04] select-none leading-none group-hover:text-primary/[0.06] transition-colors duration-700"
+                  style={{ fontSize: 'clamp(8rem, 20vw, 18rem)' }}
+                >
+                  {project.name}
+                </span>
+              </div>
+            </div>
+          </Link>
+        )}
+      </div>
     </div>
   )
 }
