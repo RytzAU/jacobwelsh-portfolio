@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'Sites',
+  description:
+    'Websites designed and developed by Jacob Welsh. Client projects spanning tattoo platforms, business websites, marketing platforms, and email SaaS.',
+  alternates: { canonical: 'https://jacobwelsh.dev/sites' },
+  openGraph: {
+    title: 'Sites — Jacob Welsh',
+    description:
+      'Websites designed and developed for businesses, with detailed case studies covering architecture and integrations.',
+    url: 'https://jacobwelsh.dev/sites',
+  },
+}
 
 const sites = [
   {

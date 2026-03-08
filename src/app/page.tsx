@@ -1,6 +1,16 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
 import { DemoVideo } from '@/components/DemoVideo'
+
+export const metadata: Metadata = {
+  title: {
+    absolute: 'Jacob Welsh — Software Engineer',
+  },
+  description:
+    'Turning complex problems into simple tools. I design and engineer platforms for legal, healthcare, and property industries.',
+  alternates: { canonical: 'https://jacobwelsh.dev' },
+}
 
 const projects = [
   {

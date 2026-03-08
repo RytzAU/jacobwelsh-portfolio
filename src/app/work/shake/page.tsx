@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'Shake — Healthcare Platform',
+  description:
+    'Case study: Sixteen-module CRM/ERP managing operations, clinical documentation, finance, and growth for a mental health counselling practice. Deep integrations with Xero, Outlook, and Stripe.',
+  alternates: { canonical: 'https://jacobwelsh.dev/work/shake' },
+  openGraph: {
+    title: 'Shake — Healthcare Platform — Jacob Welsh',
+    description:
+      'Production CRM/ERP for mental health practice. Invoicing, payroll, scheduling, clinical documentation, and marketing.',
+    url: 'https://jacobwelsh.dev/work/shake',
+  },
+}
 import { ShakeEcosystem } from '@/components/diagrams/ShakeEcosystem'
 import { ScreenshotReel } from '@/components/ScreenshotReel'
 

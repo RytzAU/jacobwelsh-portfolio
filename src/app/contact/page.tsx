@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'Contact',
+  description:
+    'Get in touch with Jacob Welsh. Open to technical leadership roles and meaningful collaborations. Based on the Gold Coast, Australia.',
+  alternates: { canonical: 'https://jacobwelsh.dev/contact' },
+  openGraph: {
+    title: 'Contact — Jacob Welsh',
+    description:
+      'Get in touch with Jacob Welsh. Open to technical leadership roles and meaningful collaborations.',
+    url: 'https://jacobwelsh.dev/contact',
+  },
+}
 
 export default function Contact() {
   return (

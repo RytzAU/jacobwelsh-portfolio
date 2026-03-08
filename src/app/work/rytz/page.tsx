@@ -1,4 +1,18 @@
+import type { Metadata } from 'next'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'RYTZ — AI Legal Platform',
+  description:
+    'Case study: AI-powered platform giving self-represented litigants the tools to navigate Australian family law. Twelve integrated modules spanning legal research, document intelligence, and case strategy.',
+  alternates: { canonical: 'https://jacobwelsh.dev/work/rytz' },
+  openGraph: {
+    title: 'RYTZ — AI Legal Platform — Jacob Welsh',
+    description:
+      'AI-powered platform for self-represented litigants. Multi-model AI orchestration, document intelligence, and case strategy tools.',
+    url: 'https://jacobwelsh.dev/work/rytz',
+  },
+}
 import { RytzArchitecture } from '@/components/diagrams/RytzArchitecture'
 import { RytzHero } from '@/components/case-studies/rytz/RytzHero'
 import { RytzNarrative } from '@/components/case-studies/rytz/RytzNarrative'

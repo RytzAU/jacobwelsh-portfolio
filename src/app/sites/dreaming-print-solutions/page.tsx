@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'Dreaming Print Solutions — Marketing Platform',
+  description:
+    'Case study: Twenty-seven page marketing platform with AI-powered print assessment, enterprise printer product pages, government procurement guides, and content library.',
+  alternates: { canonical: 'https://jacobwelsh.dev/sites/dreaming-print-solutions' },
+  openGraph: {
+    title: 'Dreaming Print Solutions — Jacob Welsh',
+    description:
+      '27-page marketing platform with AI print assessment, enterprise product pages, and procurement guides.',
+    url: 'https://jacobwelsh.dev/sites/dreaming-print-solutions',
+  },
+}
 import { DreamingPrintArchitecture } from '@/components/diagrams/DreamingPrintArchitecture'
 import { ScreenshotReel } from '@/components/ScreenshotReel'
 

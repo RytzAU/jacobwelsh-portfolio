@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'ProEmails — Email SaaS Platform',
+  description:
+    'Case study: Four-application email SaaS with a two-thousand-domain marketplace, AI-powered composition, admin portal with CRM, and one-hundred-and-eighty-seven-endpoint API.',
+  alternates: { canonical: 'https://jacobwelsh.dev/sites/proemails' },
+  openGraph: {
+    title: 'ProEmails — Email SaaS Platform — Jacob Welsh',
+    description:
+      'Email SaaS platform with domain marketplace, AI composition, admin portal with CRM, and comprehensive API.',
+    url: 'https://jacobwelsh.dev/sites/proemails',
+  },
+}
 import { ProEmailsArchitecture } from '@/components/diagrams/ProEmailsArchitecture'
 import { ScreenshotReel } from '@/components/ScreenshotReel'
 

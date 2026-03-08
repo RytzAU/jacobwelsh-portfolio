@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'Arqelo — Property Intelligence',
+  description:
+    'Case study: B2C SaaS providing institutional-grade property investment analysis. Automated data pipelines, suburb intelligence scoring, and thirteen-section property briefs.',
+  alternates: { canonical: 'https://jacobwelsh.dev/work/arqelo' },
+  openGraph: {
+    title: 'Arqelo — Property Intelligence — Jacob Welsh',
+    description:
+      'Institutional-grade property intelligence. Automated data pipelines, suburb scoring, and comprehensive investment briefs.',
+    url: 'https://jacobwelsh.dev/work/arqelo',
+  },
+}
 import { ArqeloDataPipeline } from '@/components/diagrams/ArqeloDataPipeline'
 import { ScreenshotReel } from '@/components/ScreenshotReel'
 

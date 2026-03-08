@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import { Reveal } from '@/components/Reveal'
 import { InkfolioArchitecture } from '@/components/diagrams/InkfolioArchitecture'
+
+export const metadata: Metadata = {
+  title: 'Inkfolio — Tattoo Platform',
+  description:
+    'Case study: Full-stack tattoo artist platform with forty-four routes, nine-status project lifecycle, real-time messaging, Stripe payments, Calendly booking, and automated email workflows.',
+  alternates: { canonical: 'https://jacobwelsh.dev/sites/inkfolio' },
+  openGraph: {
+    title: 'Inkfolio — Tattoo Platform — Jacob Welsh',
+    description:
+      'Full-stack portfolio, booking, and client management platform for a tattoo studio. Built with Next.js 16, Supabase, Stripe, and Calendly.',
+    url: 'https://jacobwelsh.dev/sites/inkfolio',
+  },
+}
 import { InkfolioHero } from '@/components/case-studies/inkfolio/InkfolioHero'
 import { InkfolioNarrative } from '@/components/case-studies/inkfolio/InkfolioNarrative'
 import { InkfolioDeepDives } from '@/components/case-studies/inkfolio/InkfolioDeepDives'

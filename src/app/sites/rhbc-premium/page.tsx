@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'RHBC Services — Premium Business Website',
+  description:
+    'Case study: Six-page premium marketing website with GSAP-powered animations, magnetic buttons, 3D card interactions, custom cursor, and filterable portfolio with before-and-after sliders.',
+  alternates: { canonical: 'https://jacobwelsh.dev/sites/rhbc-premium' },
+  openGraph: {
+    title: 'RHBC Services — Jacob Welsh',
+    description:
+      'Premium marketing website with GSAP animations, magnetic interactions, 3D cards, and filterable project portfolio.',
+    url: 'https://jacobwelsh.dev/sites/rhbc-premium',
+  },
+}
 import { RhbcArchitecture } from '@/components/diagrams/RhbcArchitecture'
 import { ScreenshotReel } from '@/components/ScreenshotReel'
 

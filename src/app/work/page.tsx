@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'Work',
+  description:
+    'Platforms, products, and builds by Jacob Welsh. Case studies covering architecture, AI orchestration, and systems engineering for legal, healthcare, and property industries.',
+  alternates: { canonical: 'https://jacobwelsh.dev/work' },
+  openGraph: {
+    title: 'Work — Jacob Welsh',
+    description:
+      'Platforms, products, and builds. Case studies covering architecture, AI orchestration, and systems engineering.',
+    url: 'https://jacobwelsh.dev/work',
+  },
+}
 
 const featured = [
   {

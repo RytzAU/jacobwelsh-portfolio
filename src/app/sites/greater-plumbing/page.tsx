@@ -1,5 +1,19 @@
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import { Reveal } from '@/components/Reveal'
+
+export const metadata: Metadata = {
+  title: 'Greater Plumbing Co — Business Website',
+  description:
+    'Case study: Two-hundred-and-eighty-three page website with a thirty-three page hot water SEO hub, one hundred and forty-two location-service pages, booking system, and operations dashboard.',
+  alternates: { canonical: 'https://jacobwelsh.dev/sites/greater-plumbing' },
+  openGraph: {
+    title: 'Greater Plumbing Co — Jacob Welsh',
+    description:
+      '283-page website and admin platform with hot water SEO hub, location-service pages, booking system, and operations dashboard.',
+    url: 'https://jacobwelsh.dev/sites/greater-plumbing',
+  },
+}
 import { GreaterPlumbingArchitecture } from '@/components/diagrams/GreaterPlumbingArchitecture'
 import { ScreenshotReel } from '@/components/ScreenshotReel'
 
