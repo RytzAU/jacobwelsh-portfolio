@@ -95,7 +95,7 @@ export default function Contact() {
                 <p className="text-title font-display text-primary group-hover:text-secondary transition-colors duration-500">
                   jacob-welsh
                   <span className="inline-block ml-2 text-tertiary group-hover:text-secondary transition-colors duration-500">
-                    &nearr;
+                    &#8599;
                   </span>
                 </p>
               </a>
@@ -113,7 +113,7 @@ export default function Contact() {
                 <p className="text-title font-display text-primary group-hover:text-secondary transition-colors duration-500">
                   jacobwelsh92
                   <span className="inline-block ml-2 text-tertiary group-hover:text-secondary transition-colors duration-500">
-                    &nearr;
+                    &#8599;
                   </span>
                 </p>
               </a>
