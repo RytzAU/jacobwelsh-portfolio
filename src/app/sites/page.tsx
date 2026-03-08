@@ -3,6 +3,15 @@ import { Reveal } from '@/components/Reveal'
 
 const sites = [
   {
+    slug: 'inkfolio',
+    name: 'Inkfolio',
+    category: 'Tattoo Platform',
+    description:
+      'Full-stack portfolio, booking, and client management platform with forty-four routes, a nine-status project lifecycle state machine, real-time dual-channel messaging, Stripe payments, Calendly booking integration, and five automated email workflows.',
+    stack: 'Next.js 16, React 19, TypeScript, Supabase, Stripe, Calendly, Resend',
+    year: '2026',
+  },
+  {
     slug: 'greater-plumbing',
     name: 'Greater Plumbing Co',
     category: 'Business Website',

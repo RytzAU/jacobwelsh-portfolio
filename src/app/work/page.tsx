@@ -33,6 +33,12 @@ const featured = [
 
 const builds = [
   {
+    name: 'Inkfolio',
+    type: 'Tattoo Platform',
+    stack: 'Next.js 16, Supabase, Stripe, Calendly',
+    href: '/sites/inkfolio',
+  },
+  {
     name: 'RHBC Services',
     type: 'Business Website',
     stack: 'Astro, React, GSAP',
