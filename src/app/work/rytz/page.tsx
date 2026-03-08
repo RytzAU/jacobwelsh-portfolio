@@ -66,7 +66,7 @@ const platformModules = [
 
 export default function RytzCaseStudy() {
   return (
-    <main className="min-h-screen">
+    <main id="main" className="min-h-screen">
       <RytzHero />
 
       <Reveal delay={300}>

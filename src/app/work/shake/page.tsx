@@ -86,7 +86,7 @@ const platformModules = [
 
 export default function ShakeCaseStudy() {
   return (
-    <main className="min-h-screen">
+    <main id="main" className="min-h-screen">
       {/* Header */}
       <header className="container pt-8">
         <div className="flex items-center justify-between">
@@ -97,10 +97,10 @@ export default function ShakeCaseStudy() {
             Jacob Welsh
           </Link>
           <Link
-            href="/"
+            href="/work"
             className="text-xs uppercase tracking-wider text-tertiary hover:text-primary transition-colors duration-500 font-body"
           >
-            Index
+            Work
           </Link>
         </div>
       </header>

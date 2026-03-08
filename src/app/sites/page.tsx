@@ -65,7 +65,7 @@ const sites = [
 
 export default function SitesIndex() {
   return (
-    <main className="min-h-screen">
+    <main id="main" className="min-h-screen">
       {/* Header */}
       <header className="container pt-8">
         <div className="flex items-center justify-between">

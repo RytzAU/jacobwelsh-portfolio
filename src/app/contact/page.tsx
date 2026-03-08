@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function Contact() {
   return (
-    <main className="min-h-screen flex flex-col">
+    <main id="main" className="min-h-screen flex flex-col">
       {/* Header */}
       <header className="container pt-8">
         <div className="flex items-center justify-between">

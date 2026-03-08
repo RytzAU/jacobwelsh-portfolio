@@ -13,10 +13,10 @@ export function RytzHero() {
             Jacob Welsh
           </Link>
           <Link
-            href="/"
+            href="/work"
             className="text-xs uppercase tracking-wider text-tertiary hover:text-primary transition-colors duration-500 font-body"
           >
-            Index
+            Work
           </Link>
         </div>
       </header>

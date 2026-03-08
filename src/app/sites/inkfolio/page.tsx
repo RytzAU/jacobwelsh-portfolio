@@ -61,7 +61,7 @@ const platformModules = [
 
 export default function InkfolioCaseStudy() {
   return (
-    <main className="min-h-screen">
+    <main id="main" className="min-h-screen">
       <InkfolioHero />
 
       <Reveal delay={300}>
