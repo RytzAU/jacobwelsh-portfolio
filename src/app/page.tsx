@@ -121,13 +121,13 @@ export default function Home() {
       <section className="container pt-[18vh] pb-24 md:pb-32">
         <Reveal>
           <h1 className="text-hero font-display text-primary max-w-wide">
-            I build tools that replace complexity with clarity.
+            I turn complex problems into simple tools.
           </h1>
         </Reveal>
         <Reveal delay={200}>
           <p className="mt-8 text-body-lg text-secondary font-body max-w-content">
-            Software engineer crafting platforms for legal, healthcare, and
-            property. Based on the Gold Coast, Australia.
+            I design and engineer platforms for industries where the details
+            matter&mdash;legal, healthcare, and property.
           </p>
         </Reveal>
       </section>

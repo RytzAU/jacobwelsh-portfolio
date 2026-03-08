@@ -19,11 +19,11 @@ const dmSans = DM_Sans({
 export const metadata: Metadata = {
   title: 'Jacob Welsh',
   description:
-    'Software engineer building platforms for legal, healthcare, and property. Gold Coast, Australia.',
+    'I design and engineer platforms for industries where the details matter — legal, healthcare, and property.',
   openGraph: {
     title: 'Jacob Welsh',
     description:
-      'Software engineer building platforms for legal, healthcare, and property. Gold Coast, Australia.',
+      'I design and engineer platforms for industries where the details matter — legal, healthcare, and property.',
     type: 'website',
   },
 }
